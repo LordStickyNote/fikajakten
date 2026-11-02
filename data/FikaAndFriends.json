@@ -3,7 +3,7 @@
   "name": "Fika & Friends",
   "type": "Kafé",
   "description": "Ett mysigt kafé för fika, kaffe och något gott att äta tillsammans med vänner.",
-  "logo": "/src/logos/fika-and-friends.png",
+  "logo": "src/logos/fika-and-friends.png",
   "distance": "4 min",
   "hours": [
     "08:00",
