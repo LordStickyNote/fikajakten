@@ -3,7 +3,7 @@
   "name": "Brygg & Bulle",
   "type": "Kafé",
   "description": "Ett trivsamt kvarterskafé med nybakat fika, gott kaffe och en lugn plats att ta en paus.",
-  "logo": "./src/logos/brygg-bulle.svg",
+  "logo": "/src/logos/brygg-bulle.svg",
   "distance": "5 min",
   "hours": ["10:00", "20:00"],
   "priceLevel": 3,
