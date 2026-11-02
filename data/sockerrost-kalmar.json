@@ -1,0 +1,46 @@
+{
+  "id": "sockerrost-kalmar",
+  "name": "Sockerrostat",
+  "type": "Kafé & bageri",
+  "description": "Ett litet hantverksbageri med nyrostat kaffe, frasiga bakverk och en avslappnad stämning.",
+  "logo": "./src/logos/sockerrost.svg",
+  "distance": "11 min",
+  "hours": ["07:30", "17:00"],
+  "priceLevel": 2,
+  "rating": "4,7",
+  "website": "https://wikipedia.com",
+  "menu": [
+    {
+      "id": "sockerrost-croissant",
+      "name": "Smörcroissant",
+      "price": 34,
+      "category": "Bakverk",
+      "description": "Frasig croissant bakad med smör.",
+      "image": "./src/item/sockerrost-kalmar/sockerrost-croissant.png"
+    },
+    {
+      "id": "sockerrost-bryggkaffe",
+      "name": "Bryggkaffe",
+      "price": 32,
+      "category": "Kaffe",
+      "description": "Dagens nybryggda kaffe, serveras svart eller med mjölk.",
+      "image": "./src/item/sockerrost-kalmar/sockerrost-bryggkaffe.png"
+    },
+    {
+      "id": "sockerrost-morotskaka",
+      "name": "Morotskaka",
+      "price": 40,
+      "category": "Bakverk",
+      "description": "Saftig kaka med kryddor och len färskostkräm.",
+      "image": "./src/item/sockerrost-kalmar/sockerrost-morotskaka.png"
+    },
+    {
+      "id": "sockerrost-ostmacka",
+      "name": "Rostad ostmacka",
+      "price": 56,
+      "category": "Mackor",
+      "description": "Grillat surdegsbröd med lagrad ost.",
+      "image": "./src/item/sockerrost-kalmar/sockerrost-ostmacka.png"
+    }
+  ]
+}

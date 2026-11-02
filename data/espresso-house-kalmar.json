@@ -1,0 +1,94 @@
+{
+  "id": "brygg-och-bulle",
+  "name": "Brygg & Bulle",
+  "type": "Kafé",
+  "description": "Ett trivsamt kvarterskafé med nybakat fika, gott kaffe och en lugn plats att ta en paus.",
+  "logo": "./src/logos/brygg-bulle.svg",
+  "distance": "5 min",
+  "hours": ["10:00", "20:00"],
+  "priceLevel": 3,
+  "rating": "4,0",
+  "website": "https://espressohouse.com/",
+  "menu": [
+        {
+      "id": "kanelbulle",
+      "name": "Kanelbulle",
+      "price": 35,
+      "category": "Bullar",
+      "description": "En klassisk vetebulle fylld med smör, socker och kanel.",
+      "image": "./src/item/brygg-och-bulle/kanelbulle.png"
+    },
+    {
+      "id": "kardemummabulle",
+      "name": "Kardemummabulle",
+      "price": 35,
+      "category": "Bullar",
+      "description": "En mjuk vetebulle med aromatisk kardemumma och pärlsocker.",
+      "image": "./src/item/brygg-och-bulle/kardemummabulle.png"
+    },
+    {
+      "id": "chokladboll",
+      "name": "Chokladboll",
+      "price": 25,
+      "category": "Bakverk",
+      "description": "En mjuk chokladboll rullad i kokos.",
+      "image": "./src/item/brygg-och-bulle/chokladboll.png"
+    },
+    {
+      "id": "prinsesstarta",
+      "name": "Prinsesstårta",
+      "price": 59,
+      "category": "Tårtor",
+      "description": "En klassisk prinsesstårta med grädde, vaniljkräm och marsipan.",
+      "image": "./src/item/brygg-och-bulle/prinsesstarta.png"
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "price": 52,
+      "category": "Kaffe",
+      "description": "Espresso med varm mjölk och ett tunt lager mjölkskum.",
+      "image": "./src/item/brygg-och-bulle/latte.png"
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "price": 48,
+      "category": "Kaffe",
+      "description": "Espresso toppad med lika delar varm mjölk och mjölkskum.",
+      "image": "./src/item/brygg-och-bulle/cappuccino.png"
+    },
+    {
+      "id": "bryggkaffe",
+      "name": "Bryggkaffe",
+      "price": 38,
+      "category": "Kaffe",
+      "description": "Nybrett, aromatiskt kaffe som serveras svart eller med mjölk.",
+      "image": "./src/item/brygg-och-bulle/bryggkaffe.png"
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai Latte",
+      "price": 54,
+      "category": "Te",
+      "description": "Kryddigt chai-te blandat med varm, len mjölk.",
+      "image": "./src/item/brygg-och-bulle/chai-latte.png"
+    },
+    {
+      "id": "skinkmacka",
+      "name": "Skinkmacka",
+      "price": 62,
+      "category": "Mackor",
+      "description": "En matig smörgås med skinka och klassiska tillbehör.",
+      "image": "./src/item/brygg-och-bulle/skinkmacka.png"
+    },
+    {
+      "id": "ostmacka",
+      "name": "Ostmacka",
+      "price": 58,
+      "category": "Mackor",
+      "description": "En matig smörgås med ost och klassiska tillbehör.",
+      "image": "./src/item/brygg-och-bulle/ostmacka.png"
+    }
+  ]
+}

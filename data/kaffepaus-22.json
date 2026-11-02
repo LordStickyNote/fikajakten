@@ -1,0 +1,38 @@
+{
+  "id": "kaffepaus-22",
+  "name": "Kaffepaus 22",
+  "type": "Nattkafé",
+  "description": "Ett mysigt nattkafé med nybakat fika och varm dryck för sena kvällar och tidiga morgnar.",
+  "logo": "./src/logos/kaffepaus-22.svg",
+  "distance": "7 min",
+  "hours": ["20:00", "04:00"],
+  "priceLevel": 3,
+  "rating": "4,9",
+  "website": "https://google.com",
+  "menu": [
+    {
+      "id": "kardemummabulle",
+      "name": "Kardemummabulle",
+      "price": 36,
+      "category": "Bullar",
+      "description": "Nybakad vetebulle med kardemumma och pärlsocker.",
+      "image": "./src/item/kaffepaus-22/kardemummabulle.png"
+    },
+    {
+      "id": "kladdkaka",
+      "name": "Kladdkaka",
+      "price": 44,
+      "category": "Bakverk",
+      "description": "Mjuk chokladkaka med lättvispad grädde.",
+      "image": "./src/item/kaffepaus-22/kladdkaka.png"
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai latte",
+      "price": 49,
+      "category": "Te",
+      "description": "Kryddigt te med varm, skummad mjölk.",
+      "image": "./src/item/kaffepaus-22/chai-latte.png"
+    }
+  ]
+}
