@@ -9,6 +9,16 @@
   "priceLevel": 3,
   "rating": "4,9",
   "website": "https://google.com",
+  "images": [
+    {
+      "src": "./src/cafe-images/kaffepaus-22-1.svg",
+      "alt": "Illustrerad nattfasad till Kaffepaus 22"
+    },
+    {
+      "src": "./src/cafe-images/kaffepaus-22-2.svg",
+      "alt": "Illustrerad nattöppen kaféinteriör med varmt ljus"
+    }
+  ],
   "menu": [
     {
       "id": "kardemummabulle",
@@ -16,7 +26,7 @@
       "price": 36,
       "category": "Bullar",
       "description": "Nybakad vetebulle med kardemumma och pärlsocker.",
-      "image": "./src/item/kaffepaus-22/kardemummabulle.png"
+      "image": "./src/item/products/kardemummabulle.svg"
     },
     {
       "id": "kladdkaka",
@@ -24,7 +34,7 @@
       "price": 44,
       "category": "Bakverk",
       "description": "Mjuk chokladkaka med lättvispad grädde.",
-      "image": "./src/item/kaffepaus-22/kladdkaka.png"
+      "image": "./src/item/products/kladdkaka.svg"
     },
     {
       "id": "chai-latte",
@@ -32,7 +42,7 @@
       "price": 49,
       "category": "Te",
       "description": "Kryddigt te med varm, skummad mjölk.",
-      "image": "./src/item/kaffepaus-22/chai-latte.png"
+      "image": "./src/item/products/chai-latte.svg"
     }
   ]
 }

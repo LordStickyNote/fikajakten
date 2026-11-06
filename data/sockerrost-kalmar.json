@@ -9,6 +9,16 @@
   "priceLevel": 2,
   "rating": "4,7",
   "website": "https://wikipedia.com",
+  "images": [
+    {
+      "src": "./src/cafe-images/sockerrostat-1.svg",
+      "alt": "Illustrerad fasad till bageriet Sockerrostat"
+    },
+    {
+      "src": "./src/cafe-images/sockerrostat-2.svg",
+      "alt": "Illustrerad hantverksbageridisk med nybakat bröd"
+    }
+  ],
   "menu": [
     {
       "id": "sockerrost-croissant",
@@ -16,7 +26,7 @@
       "price": 34,
       "category": "Bakverk",
       "description": "Frasig croissant bakad med smör.",
-      "image": "./src/item/sockerrost-kalmar/sockerrost-croissant.png"
+      "image": "./src/item/products/croissant.svg"
     },
     {
       "id": "sockerrost-bryggkaffe",
@@ -24,7 +34,7 @@
       "price": 32,
       "category": "Kaffe",
       "description": "Dagens nybryggda kaffe, serveras svart eller med mjölk.",
-      "image": "./src/item/sockerrost-kalmar/sockerrost-bryggkaffe.png"
+      "image": "./src/item/products/bryggkaffe.svg"
     },
     {
       "id": "sockerrost-morotskaka",
@@ -32,7 +42,7 @@
       "price": 40,
       "category": "Bakverk",
       "description": "Saftig kaka med kryddor och len färskostkräm.",
-      "image": "./src/item/sockerrost-kalmar/sockerrost-morotskaka.png"
+      "image": "./src/item/products/morotskaka.svg"
     },
     {
       "id": "sockerrost-ostmacka",
@@ -40,7 +50,7 @@
       "price": 56,
       "category": "Mackor",
       "description": "Grillat surdegsbröd med lagrad ost.",
-      "image": "./src/item/sockerrost-kalmar/sockerrost-ostmacka.png"
+      "image": "./src/item/products/ostmacka.svg"
     }
   ]
 }

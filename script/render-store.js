@@ -19,6 +19,28 @@ async function renderStore(store) {
   storeLogo.src = storeData.logo;
   document.getElementById("store-description").textContent =
     storeData.description;
+  const cafeImagesButton = document.getElementById("show-cafe-images");
+  const cafeImagesDialog = document.getElementById("cafe-images-dialog");
+  const cafeGallery = document.getElementById("cafe-gallery");
+
+  if (storeData.images?.length) {
+    for (const image of storeData.images) {
+      const cafeImage = document.createElement("img");
+      cafeImage.src = image.src;
+      cafeImage.alt = image.alt;
+      cafeImage.classList.add("width-full");
+      cafeGallery.append(cafeImage);
+    }
+
+    cafeImagesButton.hidden = false;
+    cafeImagesButton.addEventListener("click", () =>
+      cafeImagesDialog.showModal(),
+    );
+    cafeImagesDialog
+      .querySelector("button")
+      .addEventListener("click", () => cafeImagesDialog.close());
+  }
+
   document.getElementById("store-opening-time").textContent =
     `${storeData.hours[0]} - ${storeData.hours[1]}`;
 

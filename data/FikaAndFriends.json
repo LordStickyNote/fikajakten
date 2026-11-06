@@ -12,6 +12,16 @@
   "priceLevel": 2,
   "rating": "4.8",
   "website": "https://google.com",
+  "images": [
+    {
+      "src": "./src/cafe-images/fika-and-friends-1.svg",
+      "alt": "Illustrerad fasad till Fika & Friends"
+    },
+    {
+      "src": "./src/cafe-images/fika-and-friends-2.svg",
+      "alt": "Illustrerad varm och inbjudande kaféinteriör"
+    }
+  ],
   "menu": [
     {
       "id": "kanelbulle",
@@ -19,7 +29,7 @@
       "price": 32,
       "category": "Bullar",
       "description": "En nygräddad vetebulle fylld med smör, socker och kanel.",
-      "image": "./src/item/fika-and-friends/kanelbulle.png"
+      "image": "./src/item/products/kanelbulle.svg"
     },
     {
       "id": "kardemummabulle",
@@ -27,7 +37,7 @@
       "price": 32,
       "category": "Bullar",
       "description": "En mjuk vetebulle med aromatisk kardemumma och pärlsocker.",
-      "image": "./src/item/fika-and-friends/kardemummabulle.png"
+      "image": "./src/item/products/kardemummabulle.svg"
     },
     {
       "id": "chokladboll",
@@ -35,7 +45,7 @@
       "price": 22,
       "category": "Bakverk",
       "description": "En mjuk chokladboll rullad i kokos.",
-      "image": "./src/item/fika-and-friends/chokladboll.png"
+      "image": "./src/item/products/chokladboll.svg"
     },
     {
       "id": "morotskaka",
@@ -43,7 +53,7 @@
       "price": 39,
       "category": "Bakverk",
       "description": "Saftig morotskaka med milda kryddor och krämig frosting.",
-      "image": "./src/item/fika-and-friends/morotskaka.png"
+      "image": "./src/item/products/morotskaka.svg"
     },
     {
       "id": "kladdkaka",
@@ -51,7 +61,7 @@
       "price": 42,
       "category": "Bakverk",
       "description": "En fyllig chokladkaka med kladdig kärna.",
-      "image": "./src/item/fika-and-friends/kladdkaka.png"
+      "image": "./src/item/products/kladdkaka.svg"
     },
     {
       "id": "latte",
@@ -59,7 +69,7 @@
       "price": 45,
       "category": "Kaffe",
       "description": "Espresso med varm mjölk och ett tunt lager mjölkskum.",
-      "image": "./src/item/fika-and-friends/latte.png"
+      "image": "./src/item/products/latte.svg"
     },
     {
       "id": "cappuccino",
@@ -67,7 +77,7 @@
       "price": 42,
       "category": "Kaffe",
       "description": "Espresso toppad med lika delar varm mjölk och mjölkskum.",
-      "image": "./src/item/fika-and-friends/cappuccino.png"
+      "image": "./src/item/products/cappuccino.svg"
     },
     {
       "id": "bryggkaffe",
@@ -75,7 +85,7 @@
       "price": 30,
       "category": "Kaffe",
       "description": "Nybrett, aromatiskt kaffe som serveras svart eller med mjölk.",
-      "image": "./src/item/fika-and-friends/bryggkaffe.png"
+      "image": "./src/item/products/bryggkaffe.svg"
     },
     {
       "id": "chai-latte",
@@ -83,7 +93,7 @@
       "price": 46,
       "category": "Te",
       "description": "Kryddigt chai-te blandat med varm, len mjölk.",
-      "image": "./src/item/fika-and-friends/chai-latte.png"
+      "image": "./src/item/products/chai-latte.svg"
     },
     {
       "id": "ostmacka",
@@ -91,7 +101,7 @@
       "price": 49,
       "category": "Mackor",
       "description": "En matig smörgås med ost och klassiska tillbehör.",
-      "image": "./src/item/fika-and-friends/ostmacka.png"
+      "image": "./src/item/products/ostmacka.svg"
     }
   ]
 }

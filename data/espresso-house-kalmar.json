@@ -9,6 +9,16 @@
   "priceLevel": 3,
   "rating": "4,0",
   "website": "https://espressohouse.com/",
+  "images": [
+    {
+      "src": "./src/cafe-images/brygg-och-bulle-1.svg",
+      "alt": "Illustrerad fasad till Brygg & Bulle"
+    },
+    {
+      "src": "./src/cafe-images/brygg-och-bulle-2.svg",
+      "alt": "Illustrerad kaféinteriör med kaffedisk och sittplatser"
+    }
+  ],
   "menu": [
         {
       "id": "kanelbulle",
@@ -16,7 +26,7 @@
       "price": 35,
       "category": "Bullar",
       "description": "En klassisk vetebulle fylld med smör, socker och kanel.",
-      "image": "./src/item/brygg-och-bulle/kanelbulle.png"
+      "image": "./src/item/products/kanelbulle.svg"
     },
     {
       "id": "kardemummabulle",
@@ -24,7 +34,7 @@
       "price": 35,
       "category": "Bullar",
       "description": "En mjuk vetebulle med aromatisk kardemumma och pärlsocker.",
-      "image": "./src/item/brygg-och-bulle/kardemummabulle.png"
+      "image": "./src/item/products/kardemummabulle.svg"
     },
     {
       "id": "chokladboll",
@@ -32,7 +42,7 @@
       "price": 25,
       "category": "Bakverk",
       "description": "En mjuk chokladboll rullad i kokos.",
-      "image": "./src/item/brygg-och-bulle/chokladboll.png"
+      "image": "./src/item/products/chokladboll.svg"
     },
     {
       "id": "prinsesstarta",
@@ -40,7 +50,7 @@
       "price": 59,
       "category": "Tårtor",
       "description": "En klassisk prinsesstårta med grädde, vaniljkräm och marsipan.",
-      "image": "./src/item/brygg-och-bulle/prinsesstarta.png"
+      "image": "./src/item/products/prinsesstarta.svg"
     },
     {
       "id": "latte",
@@ -48,7 +58,7 @@
       "price": 52,
       "category": "Kaffe",
       "description": "Espresso med varm mjölk och ett tunt lager mjölkskum.",
-      "image": "./src/item/brygg-och-bulle/latte.png"
+      "image": "./src/item/products/latte.svg"
     },
     {
       "id": "cappuccino",
@@ -56,7 +66,7 @@
       "price": 48,
       "category": "Kaffe",
       "description": "Espresso toppad med lika delar varm mjölk och mjölkskum.",
-      "image": "./src/item/brygg-och-bulle/cappuccino.png"
+      "image": "./src/item/products/cappuccino.svg"
     },
     {
       "id": "bryggkaffe",
@@ -64,7 +74,7 @@
       "price": 38,
       "category": "Kaffe",
       "description": "Nybrett, aromatiskt kaffe som serveras svart eller med mjölk.",
-      "image": "./src/item/brygg-och-bulle/bryggkaffe.png"
+      "image": "./src/item/products/bryggkaffe.svg"
     },
     {
       "id": "chai-latte",
@@ -72,7 +82,7 @@
       "price": 54,
       "category": "Te",
       "description": "Kryddigt chai-te blandat med varm, len mjölk.",
-      "image": "./src/item/brygg-och-bulle/chai-latte.png"
+      "image": "./src/item/products/chai-latte.svg"
     },
     {
       "id": "skinkmacka",
@@ -80,7 +90,7 @@
       "price": 62,
       "category": "Mackor",
       "description": "En matig smörgås med skinka och klassiska tillbehör.",
-      "image": "./src/item/brygg-och-bulle/skinkmacka.png"
+      "image": "./src/item/products/skinkmacka.svg"
     },
     {
       "id": "ostmacka",
@@ -88,7 +98,7 @@
       "price": 58,
       "category": "Mackor",
       "description": "En matig smörgås med ost och klassiska tillbehör.",
-      "image": "./src/item/brygg-och-bulle/ostmacka.png"
+      "image": "./src/item/products/ostmacka.svg"
     }
   ]
 }

@@ -478,6 +478,16 @@
             Norge, Finland, Danmark och Tyskland är vi den självklara
             destinationen för fika.
           </p>
+          <button
+            id="show-cafe-images"
+            class="btn-chip"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="cafe-images-dialog"
+            hidden
+          >
+            Visa bilder på kaféet
+          </button>
         </div>
         <div class="align-end flex-col width-full">
           <div class="flex gap-m">
@@ -759,5 +769,22 @@
         </button>
       </div>
     </div>
+    <dialog
+      id="cafe-images-dialog"
+      class="card-item cafe-images-dialog"
+      aria-labelledby="cafe-images-title"
+    >
+      <div class="flex space-between">
+        <h2 id="cafe-images-title">Bilder på kaféet</h2>
+        <button
+          class="btn-chip"
+          type="button"
+          aria-label="Stäng bildvisaren"
+        >
+          Stäng
+        </button>
+      </div>
+      <div id="cafe-gallery" class="flex-col gap-xl"></div>
+    </dialog>
   </body>
 </html>
